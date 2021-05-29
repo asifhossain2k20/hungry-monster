@@ -1,0 +1,49 @@
+#foodContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+
+.items{
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
+}
+
+#foodContainer img{
+    width: 200px;
+    height: 200px;
+}
+#searchFood{
+    padding: 30px;
+    margin:40px;
+}
+
+#searchItems img{
+    width: 200px;
+    height: 200px;
+}
+#searchItems{
+    margin-bottom: 20px;
+}
+#foodDetails{
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+}
+#foodDetails li{
+    margin-left: 90px;
+    text-align: left;
+}
+button{
+    height: 330px;
+    width: 250px;
+}
+
+#foodDetails img{
+    width: 200px;
+    border-radius: 10px;
+}
